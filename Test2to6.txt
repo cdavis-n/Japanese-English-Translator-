@@ -1,0 +1,138 @@
+Script started on Thu 17 Dec 2020 04:26:01 PM PST
+]0;nishi019@empress:~/Scanner3[?1034h[nishi019@empress Scanner3]$ ./group19project.out
+Turn On the tracing messages (y/n): y
+Enter the input file name: partCtest2
+Processing <story>
+
+Processing <s>
+Scanner called using word: soshite
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: ne
+SYNTAX ERROR: expected PERIOD but found ne
+Skip or replace the token? (s/r): s
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: watashi
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: sensei
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: eofm
+
+Successfully parsed <story>.
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ cat translated.txt
+CONNECTOR: Then
+ACTOR: I/me
+DESCRIPTION: rika
+TENSE: IS
+
+ACTOR: I/me
+DESCRIPTION: teacher
+TENSE: IS
+
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ ./group19project.out
+Turn On the tracing messages (y/n): y
+Enter the input file name: partCtest3
+Processing <story>
+
+Processing <s>
+Scanner called using word: dakara
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: de
+SYNTAX ERROR: expected SUBJECT but found de
+Skip or replace the token? (s/r): r
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: eofm
+
+Successfully parsed <story>.
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ cat s[Ktranslated.txt
+CONNECTOR: Therefore
+ACTOR: I/me
+DESCRIPTION: rika
+TENSE: IS
+
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ ./group19project.out
+Turn On the tracing messages (y/n): y
+Enter the input file name: partCtest4
+Processing <story>
+
+Processing <s>
+Scanner called using word: watashi
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+
+Scanner called using word: mashita
+SYNTAX ERROR: unexpected mashita found in <afterNoun>
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ cat translated.txt
+ACTOR: I/me
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ ./group19project.out
+Turn On the tracing messages (y/n): y
+Enter the input file name: partCtest5
+Processing <story>
+
+Processing <s>
+Scanner called using word: wa
+SYNTAX ERROR: unexpected wa found in s
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ cat translated.txt
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ ./group19project.out
+Turn On the tracing messages (y/n): y
+Enter the input file name: partCtest6
+Processing <story>
+
+Processing <s>
+Scanner called using word: apple
+
+Lexical Error: apple is not a valid token
+SYNTAX ERROR: unexpected apple found in s
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ cat translated.txt
+]0;nishi019@empress:~/Scanner3[nishi019@empress Scanner3]$ exit
+exit
+
+Script done on Thu 17 Dec 2020 04:30:28 PM PST
