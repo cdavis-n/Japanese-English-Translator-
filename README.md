@@ -1,7 +1,7 @@
 # Japanese-English Translator - translator program
 
 
-A simple translator program translating sentenses from English/Japanese to Japanese/English.
+A simple translator program translating simple sentences from English/Japanese to Japanese/English.
 coursework of CS 421
 
 ## Table of Contents
