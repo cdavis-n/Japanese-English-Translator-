@@ -25,8 +25,8 @@ myparser.cpp is for parse code to determine grammer type based on the word scann
 ### group19project.cpp
 group19project.cpp is the final version of translator including all features of scanner and parser.  
 Extra ability of:
- *Display each messages when a word is scanned and parsed in parser function.
- *Catch syntax error and recovery it.
+ *[Display each messages when a word is scanned and parsed in parser function.]
+ *[Catch syntax error and recovery it.]
 
 
 ## Technologies
